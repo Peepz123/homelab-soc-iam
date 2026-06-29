@@ -1,0 +1,10 @@
+﻿# VM disk images and large binaries
+VMS/
+*.vdi
+*.iso
+*.ova
+*.vmdk
+
+# OS junk
+Thumbs.db
+.DS_Store
