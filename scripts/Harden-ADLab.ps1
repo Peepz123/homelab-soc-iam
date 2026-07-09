@@ -112,7 +112,7 @@ Write-Host "`n[Block 8] Creating deliberately weak (Kerberoastable) service acco
 
 $svcPath = "OU=ServiceAccounts,OU=Corp,$domain"
 # Weak, crackable password ON PURPOSE - do not imitate in production.
-$weakPassword = ConvertTo-SecureString "Summer2024" -AsPlainText -Force
+$weakPassword = ConvertTo-SecureString "Summer2024!Lab" -AsPlainText -Force
 
 New-ADUser `
     -Name                "svc-sql" `
