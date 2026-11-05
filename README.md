@@ -182,3 +182,6 @@ homelab-soc-iam/
 - VM disk images (`*.vdi`, `*.iso`) are excluded via `.gitignore`.
 - Screenshots are scrubbed of sensitive/real-network data.
 - Lab IPs (`192.168.10.0/24`) are private and non-routable.
+
+**CIS hardening:** applied CIS Benchmark baseline controls to the DC
+  via `cis-hardening/<cis-hardening.md>` — see header for benchmark version/level
